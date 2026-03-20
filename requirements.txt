@@ -1,0 +1,23 @@
+# ═══════════════════════════════════════════════════════════
+# DEPENDENCIAS — Tourism Intelligence Hub
+# Instalar: pip install -r requirements.txt
+# ═══════════════════════════════════════════════════════════
+
+# Core
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+
+# ML
+scikit-learn>=1.3.0
+
+# Forecasting (elegir uno)
+prophet>=1.1.5
+# pmdarima>=2.0.4   # alternativa si prophet falla
+
+# Market Basket
+mlxtend>=0.23.0
+
+# Dashboard
+streamlit>=1.32.0
+plotly>=5.18.0
